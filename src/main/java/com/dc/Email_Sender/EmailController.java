@@ -13,6 +13,7 @@ public class EmailController {
 
     @GetMapping("/test")
     public String test() {
+        log.info("Test Endpoint Hit");
         return "Test endpoint is working!";
     }
 
