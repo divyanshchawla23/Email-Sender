@@ -10,6 +10,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmailService {
 
+    /*
+    This service handles the construction and sending of emails.
+     */
+
+
     @Autowired
     private JavaMailSender mailSender;
 
